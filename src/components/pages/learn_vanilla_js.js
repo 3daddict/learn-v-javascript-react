@@ -1,10 +1,14 @@
-import React from 'react'
-import { Container, Box  } from 'bloomer';
+import React from "react";
 
 const LearnVJs = () => (
-  <Container>
-      <Box>Learn Vanilla Javascript</Box>
-  </Container>
-)
+  <section className="section">
+    <div className="container">
+      <h1 className="title">Learn Vanilla JavaScript</h1>
+      <p className="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+    </div>
+  </section>
+);
 
-export default LearnVJs
+export default LearnVJs;
