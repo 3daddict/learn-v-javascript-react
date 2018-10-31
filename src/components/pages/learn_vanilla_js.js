@@ -1,9 +1,10 @@
 import React from 'react'
+import { Container, Box  } from 'bloomer';
 
 const LearnVJs = () => (
-  <div>
-      <h1>Learn Vanilla Javascript</h1>
-  </div>
+  <Container>
+      <Box>Learn Vanilla Javascript</Box>
+  </Container>
 )
 
 export default LearnVJs
